@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:ital,wght@1,500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    margin: 10px 20px;
+}
+.intro h3 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 10px;
+}
+
+.skillContainer {
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 10px;
+}
+
+.skill {
+    height: 10px;
+    width: 200px;
+    background-color: red;
+}
+
+.hundrad {
+    width: 200px;
+    background-color: rgb(3, 3, 51);
+}
+
+.s5 {
+    background-color: rgb(5, 5, 107);
+    width: 150px;
+}
+
+.fifty {
+    background-color: rgb(7, 7, 209);
+    width: 100px;
+}
+
+.t5 {
+    background-color: rgb(75, 75, 211);
+    width: 50px;
+}
+
+
+@media (max-width: 600px) {
+
+    .intro{
+        margin: 40px 10px ;
+    }
+   
+}
